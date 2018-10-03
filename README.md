@@ -1,5 +1,7 @@
 # My Redux
 
+[![Build Status](https://travis-ci.org/ghoshnirmalya/my-redux.svg?branch=master)](https://travis-ci.org/ghoshnirmalya/my-redux)
+
 Building Redux from scratch
 
 ## Development
