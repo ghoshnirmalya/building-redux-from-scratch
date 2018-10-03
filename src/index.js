@@ -14,7 +14,7 @@ const createStore = (
 
   store.dispatch = action => {
     store.state = reducer(store.state, action);
-    store.listeners.forEach(listener => listener());
+    store.listeners.forEach(listener => listener(action));
   };
 
   store.getState = () => store.state;
