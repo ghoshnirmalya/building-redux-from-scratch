@@ -1,0 +1,31 @@
+{
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnPaste": true,
+  "workbench.startupEditor": "none",
+  "files.exclude": {
+    ".cache": true,
+    ".github": true,
+    "_build": true,
+    "node_modules": true,
+    "deps": true,
+    "log": true,
+    "build": true
+  },
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "window.zoomLevel": 0,
+  "editor.minimap.enabled": false,
+  "workbench.statusBar.feedback.visible": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.wordWrap": "on",
+  "prettier.eslintIntegration": true,
+  "editor.formatOnSave": true,
+  "editor.fontSize": 12,
+  "files.autoSave": "onFocusChange",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "City Lights",
+  "javascript.validate.enable": false
+}

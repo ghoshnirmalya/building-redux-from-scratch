@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - v10
+  - v9
+  - v8
+script:
+  - yarn lint
+  - yarn test --coverage
+cache:
+  - yarn
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
