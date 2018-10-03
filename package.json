@@ -20,7 +20,7 @@
     "postcoverage": "opn coverage/lcov-report/index.html",
     "lint": "eslint .",
     "flow": "flow check",
-    "docs": "documentation readme src --section=API",
+    "docs": "documentation readme src",
     "postdocs": "git add README.md",
     "clean": "rimraf dist",
     "flowbuild": "flow-copy-source src dist",
