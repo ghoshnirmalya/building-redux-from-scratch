@@ -1,6 +1,6 @@
 # My Redux
 
-[![Build Status](https://travis-ci.org/ghoshnirmalya/my-redux.svg?branch=master)](https://travis-ci.org/ghoshnirmalya/my-redux)
+[![Build Status](https://travis-ci.org/ghoshnirmalya/my-redux.svg?branch=master)](https://travis-ci.org/ghoshnirmalya/my-redux) [![Greenkeeper badge](https://badges.greenkeeper.io/ghoshnirmalya/my-redux.svg)](https://greenkeeper.io/)
 
 Building Redux from scratch
 
