@@ -63,7 +63,7 @@
     "flow-copy-source": "^2.0.2",
     "husky": "^1.1.0",
     "jest-cli": "^23.6.0",
-    "lint-staged": "^7.3.0",
+    "lint-staged": "^8.0.0",
     "opn-cli": "^3.1.0",
     "prettier": "^1.14.3",
     "rimraf": "^2.6.2",
