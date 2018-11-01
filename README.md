@@ -4,7 +4,7 @@
 
 This app demonstrates how you can build your own version of [Redux](https://redux.js.org/). [my-redux-example](https://github.com/ghoshnirmalya/my-redux-example) is an app which is using this package to maintain it's state. You can view the whole implementation in [this file](https://github.com/ghoshnirmalya/my-redux-example/blob/master/src/App.js).
 
-<img src="https://user-images.githubusercontent.com/6391763/46587617-a5399480-caac-11e8-9b34-3737b495c52b.png" alt="Logo">
+<img src="https://user-images.githubusercontent.com/6391763/47852563-34af3a80-de02-11e8-8ecc-acbc20ca8c4f.png" alt="Logo">
 
 ## Example usage
 
