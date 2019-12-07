@@ -21,7 +21,6 @@
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "editor.wordWrap": "on",
-  "prettier.eslintIntegration": true,
   "editor.formatOnSave": true,
   "editor.fontSize": 12,
   "files.autoSave": "onFocusChange",

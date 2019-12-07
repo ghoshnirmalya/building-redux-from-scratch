@@ -1,6 +1,6 @@
 # My Redux
 
-[![Build Status](https://travis-ci.org/ghoshnirmalya/my-redux.svg?branch=master)](https://travis-ci.org/ghoshnirmalya/my-redux) [![Greenkeeper badge](https://badges.greenkeeper.io/ghoshnirmalya/my-redux.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/ghoshnirmalya/building-redux-from-scratch.svg?branch=master)](https://travis-ci.org/ghoshnirmalya/building-redux-from-scratch)
 
 This app demonstrates how you can build your own version of [Redux](https://redux.js.org/). [my-redux-example](https://github.com/ghoshnirmalya/my-redux-example) is an app which is using this package to maintain it's state. You can view the whole implementation in [this file](https://github.com/ghoshnirmalya/my-redux-example/blob/master/src/App.js).
 
@@ -68,12 +68,6 @@ $ yarn test
 $ yarn coverage
 ```
 
-#### Running the linter
-
-```sh
-$ yarn lint
-```
-
 #### Building the code
 
 ```sh
@@ -87,7 +81,7 @@ $ yarn version patch|minor|major
 $ yarn publish
 ```
 
-It'll automatically run `test`, `lint`, `docs`, `build` and generate CHANGELOG.md file.
+It'll automatically run `test`, `docs`, `build` and generate CHANGELOG.md file.
 
 ## License
 

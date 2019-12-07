@@ -18,13 +18,10 @@
     "test": "jest",
     "coverage": "npm test -- --coverage",
     "postcoverage": "opn coverage/lcov-report/index.html",
-    "lint": "eslint .",
-    "flow": "flow check",
     "clean": "rimraf dist",
-    "flowbuild": "flow-copy-source src dist",
-    "prebuild": "npm run clean && npm run flowbuild",
+    "prebuild": "npm run clean",
     "build": "babel src -d dist",
-    "preversion": "npm run lint && npm test && npm run build",
+    "preversion": "npm test && npm run build",
     "version": "standard-changelog && git add CHANGELOG.md",
     "postpublish": "git push origin master --follow-tags"
   },
@@ -34,8 +31,8 @@
     }
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix",
+    "*.{js,css,json,md}": [
+      "prettier --write",
       "git add"
     ]
   },
@@ -44,29 +41,19 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.4.5",
-    "@babel/plugin-proposal-class-properties": "^7.4.4",
-    "@babel/preset-env": "^7.4.5",
-    "@babel/preset-flow": "^7.0.0",
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.7.5",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-eslint": "^10.0.1",
-    "babel-jest": "^24.8.0",
-    "eslint": "^6.0.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-flowtype": "^4.0.0",
-    "eslint-plugin-flowtype-errors": "^4.1.0",
-    "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-prettier": "^3.1.0",
-    "flow-bin": "^0.112.0",
-    "flow-copy-source": "^2.0.6",
-    "husky": "^3.0.0",
-    "jest-cli": "^24.8.0",
-    "lint-staged": "^9.0.1",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "husky": "^3.1.0",
+    "jest-cli": "^24.9.0",
+    "lint-staged": "^9.5.0",
     "opn-cli": "^5.0.0",
-    "prettier": "^1.17.1",
+    "prettier": "^1.19.1",
     "rimraf": "^3.0.0",
-    "standard-changelog": "^2.0.11"
+    "standard-changelog": "^2.0.18"
   }
 }
