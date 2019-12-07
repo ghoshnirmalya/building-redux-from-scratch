@@ -1,6 +1,6 @@
 {
   "name": "my-redux",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Building Redux from scratch",
   "license": "MIT",
   "repository": "ghoshnirmalya/my-redux",
