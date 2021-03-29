@@ -22,7 +22,7 @@
   "explorer.confirmDelete": false,
   "editor.wordWrap": "on",
   "editor.formatOnSave": true,
-  "editor.fontSize": 12,
+  "editor.fontSize": 18,
   "files.autoSave": "onFocusChange",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.colorTheme": "City Lights",
